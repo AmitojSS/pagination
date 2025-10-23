@@ -5,7 +5,7 @@ export const seedUsers = async(req,res) =>
     try
     {
        const users = [];
-       for(let i= 1; i <= 60; i++)
+       for(let i= 1; i <= 100; i++)
        {
          users.push({
             id : `myuser${i}`,
